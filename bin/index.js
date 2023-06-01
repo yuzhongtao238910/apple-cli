@@ -92,7 +92,7 @@
 			} else {
 				// console.log(chalk.red('成功！！！'))
 				spinner.succeed("下载成功")
-				fs.remove(path.join(targetPath, ".git"))
+				fs.removeSync(path.join(targetPath, ".git"))
 				console.log('Done now run:')
 				// console.log(path.join(targetPath, ".git"))
 				console.log(chalk.green(`\n cd ${name}`))
