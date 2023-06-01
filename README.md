@@ -9,3 +9,13 @@
 - 模板3：基于vite创建的vue3版本
 
 - 模板4：基于自定义的webpack配置的vue3版本，关于自定义的配置，详情可以查看：https://github.com/yuzhongtao238910/vue3-webpack.git
+
+### npm官网地址
+
+- 安装命令npm i fengtai-apple-cli -g
+
+- 运行命令
+
+  - fengtai-apple-cli --help
+
+  - fengtai-apple-cli create project-name  
