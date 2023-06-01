@@ -94,6 +94,7 @@
 				spinner.succeed("下载成功")
 				fs.remove(path.join(targetPath, ".git"))
 				console.log('Done now run:')
+				// console.log(path.join(targetPath, ".git"))
 				console.log(chalk.green(`\n cd ${name}`))
 				console.log(chalk.green(`\n npm i`))
 			}
