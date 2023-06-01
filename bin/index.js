@@ -33,7 +33,9 @@
 	.action(async (name) => {
 		// console.log(name)
 		// console.log(__dirname, process.cwd())
-		const targetPath = path.resolve(__dirname, "../", name)
+		// const targetPath = path.resolve(__dirname, "../", name)
+		const targetPath = path.join(process.cwd(), name)
+		// console.log(process.cwd(), targetPath, name)
 		if (fs.existsSync(targetPath)) {
 			// console.log("yes")
 			const answer = await inquirer.prompt([
