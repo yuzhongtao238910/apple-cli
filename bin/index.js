@@ -45,7 +45,7 @@
 				}
 			])
 			if (answer.overwrite) {
-				fs.remove(targetPath)
+				fs.removeSync(targetPath)
 				console.log(chalk.green('删除成功！！！'))
 			} else {
 				// 直接返回起一个新名字
